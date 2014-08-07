@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backgr">
+	<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+    <TableRow>
+		<TextView android:text="Name" android:id="@+id/nameView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/nameText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+
+    <TableRow>
+		<TextView android:text="Email" android:id="@+id/emailView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/emailText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+	
+    <TableRow>
+		<TextView android:text="Blood Press" android:id="@+id/bloodView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/bloodText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+	
+    <TableRow>
+		<TextView android:text="Pulse" android:id="@+id/pulseView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/pulseText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+	
+    <TableRow>
+		<TextView android:text="Hospital" android:id="@+id/hospitalView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/hospitalText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+	
+    <TableRow>
+		<TextView android:text="Disease" android:id="@+id/diseaseView"
+		    android:textColor="@color/black"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				>
+		</TextView>
+		<EditText android:id="@+id/diseaseText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				>
+		</EditText>
+	</TableRow>
+	</TableLayout>
+	<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" >
+    <TableRow android:layout_marginTop="20dp">
+    <Button 
+        android:text="Get" 
+        android:id="@+id/getButton"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+    </Button>
+    <Button 
+        android:text="Update" 
+        android:id="@+id/updateButton"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+    </Button>
+    <Button 
+        android:text="Booking" 
+        android:id="@+id/bookingButton"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+    </Button>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>

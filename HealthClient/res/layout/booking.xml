@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+     >
+   
+    <TextView
+        android:text="Date"
+        android:textColor="@color/black"
+        android:id="@+id/bookDateView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		>
+    </TextView>
+	<EditText
+        android:id="@+id/bookDate"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:textColor="@color/black"
+        android:text="Time"
+        android:id="@+id/bookTimeView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+    </TextView>
+    <EditText 
+        android:id="@+id/bookTime"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+    </EditText>
+    <Button 
+        
+        android:text="Submit" 
+        android:id="@+id/SubmitButton"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+    </Button>
+    
+</LinearLayout>
